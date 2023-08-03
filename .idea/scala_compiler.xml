@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="assortment,dcinventory,dsd,forecast,nrti,omspo">
+      <parameters>
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+    </profile>
+    <profile name="Maven 2" modules="datapipelines,psi" />
+    <profile name="Maven 3" modules="Drone_project,spark-fraud-data-analyses,spark-json-flatten,spark-peace-project">
+      <parameters>
+        <parameter value="-target:jvm-1.5" />
+      </parameters>
+    </profile>
+  </component>
+</project>
